@@ -1,8 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&family=Slabo+27px&display=swap');
 
-/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: red;
+}
+/* header, headings and logo */
 
 header {
-    height: 150px;
-    background-color: blue;
+    height:100px;
+    border-bottom: 1px solid #1C352D;
+}
+
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #1C352D;
+}
+#Njovu-logo {
+    float: left;
+    font-size: 3em;
+    margin-left: 40px;
+}
+#Njovu-logo a {
+    text-decoration: none;
+    color:#1C352D;
+}
+/* navigation */
+#navigation {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#navigation li {
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+#navigation a {
+    text-decoration: none;
+    color:#1C352D;
+}
+#navigation, #Njovu-logo {
+    line-height: 100px;
+}
+#navigation a:hover {
+    border-bottom: 1px solid #1C352D;
 }
