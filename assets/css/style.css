@@ -27,7 +27,8 @@ h1, h2 {
     color:#1C352D;
 }
 /* navigation */
-#navigation {
+#navigation { 
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
     text-transform: uppercase;
 }
