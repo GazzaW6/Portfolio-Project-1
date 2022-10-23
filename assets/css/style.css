@@ -86,3 +86,13 @@ h1, h2 {
     margin-left: 5%;
     overflow: hidden;
 }
+/*foot*/
+#social-media {
+    text-align:center;
+}
+#social-media li {
+    display: inline;
+    line-height: 75px;
+    float: center;
+    padding: 20px;
+}
