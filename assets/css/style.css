@@ -55,14 +55,25 @@ h1, h2 {
     height: 400px;
     width: 42.5%;
     margin-left: 5%;
-    background-color: blue;
+    margin-bottom: 5%;
+}
+#info-1 h2 {
+    padding-bottom: 10px;
+}
+#info-1 p {
+    text-align: justify;
 }
 #picture-1-container {
     float: right;
     height: 400px;
     width: 42.5%;
     margin-right: 5%;
-    background-color: red;
+    margin-bottom: 5%;
+}
+#picture-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 #info-2{
     float: left;
@@ -71,12 +82,25 @@ h1, h2 {
     margin-left: 5%;
     background-color: yellow;
 }
+#info-2 h2 {
+    padding-bottom: 10px;
+}
+#info-2 p {
+    text-align: justify;
+}
 #picture-2-container {
     float: right;
     height: 400px;
     width: 42.5%;
     margin-right: 5%;
     background-color: green;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+#picture-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 /*interested in joining section */
 #info-3 {
@@ -85,6 +109,9 @@ h1, h2 {
     width: 90%;
     margin-left: 5%;
     overflow: hidden;
+}
+#info-3 h2 {
+    padding-bottom: 10px;
 }
 /*foot*/
 #social-media {
