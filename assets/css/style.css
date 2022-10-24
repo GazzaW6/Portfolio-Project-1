@@ -11,11 +11,15 @@ body {
     font-weight: 300;
     color: #040504;
 }
-/*headings and logo */
+/*headings and logo and paragraphs*/
 h1, h2 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: #1C352D;
+}
+p {
+    text-align: justify;
+    padding: 15px;
 }
 #Njovu-logo {
     float: left;
@@ -51,20 +55,17 @@ h1, h2 {
 #about-us {
     height: 800px;
 }
-#info-1{
+.info{
     float: left;
     height: 400px;
     width: 45.5%;
     margin-left: 3%;
     margin-bottom: 5px;
 }
-#info-1 h2 {
+.info-1 h2 {
     padding-bottom: 10px;
 }
-#info-1 p {
-    text-align: justify;
-}
-#picture-1-container {
+#picture-container {
     float: right;
     height: 400px;
     width: 45.5%;
@@ -72,43 +73,19 @@ h1, h2 {
     margin-bottom: 5px;
     overflow: hidden;
 }
-#picture-1 {
+.picture {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-#info-2{
-    float: left;
-    height: 400px;
-    width: 45.5%;
-    margin-left: 3%;
-    margin-bottom: 5px;
-}
-#info-2 h2 {
+.info h2 {
     padding-bottom: 10px;
-}
-#info-2 p {
-    text-align: justify;
-}
-#picture-2-container {
-    float: right;
-    height: 400px;
-    width: 45.5%;
-    margin-right: 3%;
-    margin-bottom: 5px;
-    overflow: hidden;
-}
-#picture-2 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 /*interested in joining section */
 #info-3 {
     height:400px;
     width: 94%;
     margin-left: 3%;
-    
     overflow: hidden;
     text-align: justify;
 }
