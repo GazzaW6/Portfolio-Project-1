@@ -20,7 +20,7 @@ h1, h2 {
 #Njovu-logo {
     float: left;
     font-size: 3em;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 #Njovu-logo a {
     text-decoration: none;
@@ -34,7 +34,7 @@ h1, h2 {
 }
 #navigation li {
     float: right;
-    margin-right: 5%;
+    margin-right: 3%;
     list-style-type: none;
 }
 #navigation a {
@@ -55,8 +55,8 @@ h1, h2 {
     float: left;
     height: 400px;
     width: 42.5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #info-1 h2 {
     padding-bottom: 10px;
@@ -68,8 +68,10 @@ h1, h2 {
     float: right;
     height: 400px;
     width: 42.5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border: 1px solid #080B08;
+    overflow: hidden;
 }
 #picture-1 {
     display: flex;
@@ -80,8 +82,8 @@ h1, h2 {
     float: left;
     height: 400px;
     width: 42.5%;
-    margin-left: 5%;
-    background-color: yellow;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #info-2 h2 {
     padding-bottom: 10px;
@@ -93,10 +95,10 @@ h1, h2 {
     float: right;
     height: 400px;
     width: 42.5%;
-    margin-right: 5%;
-    background-color: green;
-    margin-bottom: 5%;
+    margin-right: 3%;
+    margin-bottom: 3%;
     overflow: hidden;
+    border: 1px solid #080B08;
 }
 #picture-2 {
     display: flex;
@@ -105,16 +107,15 @@ h1, h2 {
 }
 /*interested in joining section */
 #info-3 {
-    background-color: blue;
     height:400px;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 3%;
     overflow: hidden;
 }
 #info-3 h2 {
     padding-bottom: 10px;
 }
-/*foot*/
+/*footer*/
 #social-media {
     text-align:center;
 }
@@ -123,4 +124,41 @@ h1, h2 {
     line-height: 75px;
     float: center;
     padding: 20px;
+}
+#social-media a {
+    color: #080B08;
+    font-size: 2em;
+}
+#contact-button-container {
+    text-align: center;
+    height: 100px;
+    margin: auto 0;
+    border: 1px solid black;
+}
+#contact-button {
+align-items: center;
+padding: 20px;
+}
+#contact-button a {
+    border: 1px solid black;
+    padding: 25px;
+    margin: auto 0;
+    float: center;
+    text-decoration: none;
+}
+
+/* styling for Gallery.html */
+.grid {
+    clear: both;
+    list-style: 0;
+    column-count: 3;
+    column-gap: 5px;
+    margin: 3%
+}
+.grid > img {
+    width: 100%;
+    filter: grayscale(80%);
+}
+.grid > img:hover {
+    filter:none;
 }
