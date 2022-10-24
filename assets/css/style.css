@@ -54,9 +54,9 @@ h1, h2 {
 #info-1{
     float: left;
     height: 400px;
-    width: 42.5%;
+    width: 45.5%;
     margin-left: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5px;
 }
 #info-1 h2 {
     padding-bottom: 10px;
@@ -67,10 +67,9 @@ h1, h2 {
 #picture-1-container {
     float: right;
     height: 400px;
-    width: 42.5%;
+    width: 45.5%;
     margin-right: 3%;
-    margin-bottom: 3%;
-    border: 1px solid #080B08;
+    margin-bottom: 5px;
     overflow: hidden;
 }
 #picture-1 {
@@ -81,9 +80,9 @@ h1, h2 {
 #info-2{
     float: left;
     height: 400px;
-    width: 42.5%;
+    width: 45.5%;
     margin-left: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5px;
 }
 #info-2 h2 {
     padding-bottom: 10px;
@@ -94,11 +93,10 @@ h1, h2 {
 #picture-2-container {
     float: right;
     height: 400px;
-    width: 42.5%;
+    width: 45.5%;
     margin-right: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5px;
     overflow: hidden;
-    border: 1px solid #080B08;
 }
 #picture-2 {
     display: flex;
@@ -108,9 +106,11 @@ h1, h2 {
 /*interested in joining section */
 #info-3 {
     height:400px;
-    width: 90%;
+    width: 94%;
     margin-left: 3%;
+    
     overflow: hidden;
+    text-align: justify;
 }
 #info-3 h2 {
     padding-bottom: 10px;
