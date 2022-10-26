@@ -79,20 +79,7 @@ p {
     width: 100%;
     clear:both;
 }
-.info h2 {
-    padding-bottom: 10px;
-}
-/*interested in joining section */
-#info-3 {
-    height: 400px;
-    width: 94%;
-    margin-left: 3%;
-    overflow: hidden;
-    text-align: justify;
-}
-#info-3 h2 {
-    padding-bottom: 10px;
-}
+
 /*footer*/
 footer {
     position: relative;
@@ -131,7 +118,6 @@ footer {
 #form {
     clear: both;
     font-family: 'Roboto Condensed', sans-serif;
-    height: px;
 }
 /*submit inputs and button */
 #form-container {
@@ -140,7 +126,7 @@ footer {
     text-align: center; 
     width: 45.5%;
     background-image: url(../images/giraffe\ .jpg);
-    background-size: 100%;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
     color: #080B08;
@@ -206,9 +192,10 @@ label,input {
 }
 /*media queries */
 /* For medium screen sizes from 800px wide and down */
+/* index.html */
 @media screen and (max-width:800px){
     #Njovu-logo {
-        margin:auto;
+        margin-top: 10px;
         text-align: center;
         line-height: 60px;
     }
@@ -230,18 +217,88 @@ label,input {
         margin-top: 5px;
     }
     #picture-container {
-        height:fit-content;
+        height: 200px;
         width: 92%;
         margin-right: 4%;
         overflow: hidden;
     }
     .picture {
-        display:;
+        display:block;
         justify-content: center;
         width: 100%;
     }
     #about-us {
         clear: none;
     }
+    #info-3 {
+        height:fit-content;
+        width: 100%;
+        margin: auto 0;
+        margin-bottom: 5px;
+        clear: both;
     }
-}
+    
+    footer {
+        clear: both;
+        position: relative;
+        grid-area: footer;
+    }
+    #social-media {
+        text-align:center;
+    }
+    #social-media li {
+        display: inline;
+        line-height: 75px;
+        float: center;
+        padding: 20px;
+    }
+    #social-media a {
+        color: #080B08;
+        font-size: 2em;
+    }
+
+    /* Gallery.html */
+   .grid {
+    clear: both;
+    list-style: 0;
+    column-count: 1;
+    column-gap: 5px;
+    margin-left: 2%;
+    width:96%;
+   }
+   /* Contact-us.html */
+   #form-container {
+    width:fit-content;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-image: url(../images/giraffe\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #080B08;
+    padding: 30px;
+    clear:both;
+   }
+   .text-input {
+    border: 1px solid #1C352D;
+    height: 20px;
+    background: #282929;
+    color: #f4f9f7;
+    width: 100%;
+    margin: 5px 25% 20px 0;
+    border: 1px solid #f4f9f7;
+    border-radius: 10px;
+    }
+    #contact-information {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: auto;
+        width: 92%;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    #contact-information i{
+        color:#1C352D;
+        padding: 5px;
+        text-align: center;
+    }
