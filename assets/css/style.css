@@ -53,7 +53,6 @@ p {
 }
 /*photography information*/
 #about-us {
-    height: 800px;
     clear:both;
 }
 .info{
@@ -63,7 +62,7 @@ p {
     margin-left: 3%;
     margin-bottom: 5px;
 }
-.info-1 h2 {
+.info h2 {
     padding-bottom: 10px;
 }
 #picture-container {
@@ -97,6 +96,7 @@ p {
 /*footer*/
 footer {
     position: relative;
+    grid-area: footer;
 }
 #social-media {
     text-align:center;
@@ -129,9 +129,11 @@ footer {
 }
 /* styling for contact us page.html */
 #form {
-    clear:both;
+    clear: both;
     font-family: 'Roboto Condensed', sans-serif;
+    height: px;
 }
+/*submit inputs and button */
 #form-container {
     border: 1px solid 080B08;
     padding: 100px;
@@ -150,6 +152,7 @@ footer {
 #form-container h2, h4 {
     padding-bottom: 30px;
     color: #1C352D;
+    font-size: 1.5em;
 }
 .text-input {
     border: 1px solid #1C352D;
@@ -166,4 +169,79 @@ label,input {
     flex-direction: column;
     text-align: center;
   }
-
+.submit-button {
+    padding: 15px 35px 15px 35px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color:#1C352D;
+    background-color:#d1d6d5, 
+}
+/*contact information*/
+#contact-information {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+#contact-information h3{
+    padding-bottom: 20px;
+    color: #1C352D;
+    font-size: 1.5em;
+}
+#contact-information li{
+    color:#080B08;
+    list-style-type: none;
+    padding: 5px;
+}
+#contact-information i{
+    color:#1C352D;
+    padding: 5px;
+}
+#contact-information span{
+    color:#080B08;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*media queries */
+/* For medium screen sizes from 800px wide and down */
+@media screen and (max-width:800px){
+    #Njovu-logo {
+        margin:auto;
+        text-align: center;
+        line-height: 60px;
+    }
+    #navigation li {
+        float: left;
+        margin: 0 auto;
+        margin-left: 6%;
+    }
+    .info {
+        height:fit-content;
+        width: 100%;
+        margin: auto 0;
+        margin-bottom: 5px;
+        clear: both;
+    }
+    .info h2
+    {
+        text-align: center;
+        margin-top: 5px;
+    }
+    #picture-container {
+        height:fit-content;
+        width: 92%;
+        margin-right: 4%;
+        overflow: hidden;
+    }
+    .picture {
+        display:;
+        justify-content: center;
+        width: 100%;
+    }
+    #about-us {
+        clear: none;
+    }
+    }
+}
