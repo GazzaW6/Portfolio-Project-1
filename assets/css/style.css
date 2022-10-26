@@ -133,12 +133,15 @@ footer {
     font-family: 'Roboto Condensed', sans-serif;
 }
 #form-container {
-    border: 1px solid black;
+    border: 1px solid 080B08;
     padding: 100px;
     text-align: center; 
     width: 45.5%;
-    background-color: #1C352D;
-    color: #f4f9f7;
+    background-image: url(../images/giraffe\ .jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #080B08;
     padding: 30px;
     clear:both;
     margin-left: auto;
@@ -146,18 +149,18 @@ footer {
 }
 #form-container h2, h4 {
     padding-bottom: 30px;
-    color: #f4f9f7;
+    color: #1C352D;
 }
 .text-input {
     border: 1px solid #1C352D;
     height: 20px;
-    background: #253439;
+    background: #282929;
     color: #f4f9f7;
     width: 100%;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #f4f9f7;
     border-radius: 10px;
-}
+    }
 label,input {
     display: flex;
     flex-direction: column;
