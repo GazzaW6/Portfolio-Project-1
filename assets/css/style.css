@@ -157,12 +157,13 @@ label,input {
     flex-direction: column;
     text-align: center;
   }
-.submit-button {
+#submit-button {
     padding: 15px 35px 15px 35px;
     text-transform: uppercase;
     font-size: 1.5em;
     color:#1C352D;
-    background-color:#d1d6d5, 
+    background-color:#d1d6d5;
+    margin: auto;
 }
 /*contact information*/
 #contact-information {
@@ -221,11 +222,12 @@ label,input {
         text-align: center;
         margin-top: 5px;
     }
-    #picture-container {
-        height: 400px;
+    .picture-container {
+        height: 300px;
         width: 96%;
         margin-right: 2%;
         overflow: hidden;
+        clear:both;
     }
     /* Gallery.html */
     .grid {
@@ -241,9 +243,7 @@ label,input {
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    #contact-information i{
 
-    }
 }
 /* For medium screen sizes from 800px wide and down */
 /* index.html */
@@ -262,21 +262,20 @@ label,input {
         width: 100%;
         margin: auto 0;
         margin-bottom: 5px;
-        clear: both;
     }
     .info h2
     {
         text-align: center;
-        margin-top: 5px;
+        margin-top: x;
     }
-    #picture-container {
-        height: 300px;
+    .picture-container {
+        height: 200px;
         width: 92%;
         margin-right: 4%;
         overflow: hidden;
     }
     .picture {
-        display:block;
+        display: block;
         justify-content: center;
         width: 100%;
     }
@@ -285,10 +284,9 @@ label,input {
     }
     #info-3 {
         height:fit-content;
-        width: 100%;
+        width: 92%;
         margin: auto 0;
         margin-bottom: 5px;
-        clear: both;
     }
     
     footer {
