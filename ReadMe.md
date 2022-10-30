@@ -17,4 +17,6 @@
 <h2>Page Features</h2>
 <h3>Header</h3>
 <p>The header contains the Njovu Wildlife photography Title as well as the navigation elements: Home, Gallery and Get In Touch. This header appears on all the pages to provide uniformity and a good user experience.</p>
+<img src="https://user-images.githubusercontent.com/111531426/198906938-f8f360c2-1700-42f9-92e2-32d539f66d92.png">
+     
 
