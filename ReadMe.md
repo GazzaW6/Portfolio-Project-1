@@ -1,5 +1,6 @@
 <h1>Njovu Wildlife Photography</h1>
 <p>This website is for for nature and wildlife photography enthusiasts either based in Hoesdspruit, South Africa or tourists who are travelling to South Africa and wish to have a guide who will show them tips and tricks to improve their photography skills as well as guide them around the Kruger national park. The website provides an overview on what photography packages are on offer as well as a contact form to get in touch with Njovu Photography Club.</p>
+<img src="https://user-images.githubusercontent.com/111531426/198907338-d4eaf2d5-ee15-4e7e-bdbe-57e485b8e697.png">
 <h2>User Stories</h2>
 <h3>Home</h3>
 <ul>
@@ -18,5 +19,16 @@
 <h3>Header</h3>
 <p>The header contains the Njovu Wildlife photography Title as well as the navigation elements: Home, Gallery and Get In Touch. This header appears on all the pages to provide uniformity and a good user experience.</p>
 <img src="https://user-images.githubusercontent.com/111531426/198906938-f8f360c2-1700-42f9-92e2-32d539f66d92.png">
-     
+<h3>Page contents</h3>
+<ul>
+  <li>About us</li>
+  <p>This contains information about the club.</p>
+    <li>What to Expect</li>
+  <p>This contains information about what you might expect during safari.</p>
+      <li>Interested in joining us?</li>
+  <p>This contains information about why you should get in contact with Njovu Wildlife Photography.</p>
+</ul>
+<h3>Gallery</h3>
+<p>The Gallery highlights some of the photos past visitors have taken whilst on Safari with Njovu Wildlife Photography.</p>
+
 
