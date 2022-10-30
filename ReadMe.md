@@ -14,3 +14,7 @@
 <ul>
   <li>I want to be able to express my interest to Njovu Photography club and get more information from the club directly.</li>
 </ul>
+<h2>Page Features</h2>
+<h3>Header</h3>
+<p>The header contains the Njovu Wildlife photography Title as well as the navigation elements: Home, Gallery and Get In Touch. This header appears on all the pages to provide uniformity and a good user experience.</p>
+
