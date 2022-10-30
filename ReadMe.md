@@ -30,5 +30,6 @@
 </ul>
 <h3>Gallery</h3>
 <p>The Gallery highlights some of the photos past visitors have taken whilst on Safari with Njovu Wildlife Photography.</p>
+<img src="https://user-images.githubusercontent.com/111531426/198907800-0ddff6a5-f868-45a0-a4b3-149afeac6a9e.png">
 
 
