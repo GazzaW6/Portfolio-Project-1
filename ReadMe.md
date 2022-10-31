@@ -59,6 +59,7 @@
 <h3> Validator testing</h3>
 <p>The code was run through the HTML validator (https://validator.w3.org/) and multiple errors were found. These have since been corrected</p>
 <img src="https://user-images.githubusercontent.com/111531426/198909561-b344349c-89b8-45c8-a782-ee7f33a65254.png">
+<img src="https://user-images.githubusercontent.com/111531426/198912813-2ad496a9-6c4d-48f3-a0d7-a5d5c2121bde.png">
 <h2>Bugs</h2>
  <ul>
   <li>Issue-1</li>
@@ -78,6 +79,13 @@
   <li>Solution-3</li>
   Ongoing.
   </ul>
+  <h2>Deployment</h2>
+  <h3>This Site was deployed the site to Github Pages using the following process:</h3>
+  <li>Click the 'Settings' tab in the GitHub repository</li>
+  <li>Select 'Pages' in the left hand menu</li>
+  <li>Under the heading of 'Source', select 'Master Branch' from the drop-down menu</li>
+  <li>Click 'Save'</li>
+
 <h2>Credits</h2>
     
   <h3>Media</h3>
