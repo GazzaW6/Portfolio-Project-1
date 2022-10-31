@@ -50,7 +50,7 @@
   <li>Font Awesome</li>
   </ul>
   <h2>Testing</h2>
-  <p>This site was tested using Chrome developer tools to test the different aspects and ratios of the site as the screen size and elements were tested for responsive design. These developer tools were used throughout the project lifecycle.
+  <p>This site was tested using Chrome developer tools to test the different aspects and ratios of the site as the screen size and elements were tested for responsive design. These developer tools were used throughout the project lifecycle. The social media links were also tested and work as intended.
   <p>The home page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.</p>
     <p>The Gallery page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.The hover effect for each picture also works as it was intended to.</p>
       <p>The Get In Touch page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.The contact form works as intended. The action value has been set to but I have tested the formdump link "https://formdump.codeinstitute.net" and the form works as intended</p>
