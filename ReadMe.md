@@ -35,8 +35,23 @@
 <p>The Get In Touch page includes a form for visitors to fill in their contact information so that Njovu photography club can get in contact with the site visitor to disucss their business offering in more depth. It includes a input for full name, contact number as well as email. All of which are compulsory. The page also provides contact information should they want to contact Njovu photograpy club directly.</p>
 <img src="https://user-images.githubusercontent.com/111531426/198908097-1a9378e6-ac17-4777-ae89-eb34696c973d.png">
 <h3>Footer</h3>
-<p>The footer contains links to Njovu Photography Club's social media accounts. The footer is designed with minimalism in mind so as not to overpower the page.
+<p>The footer contains links to Njovu Photography Club's social media accounts. The footer is designed with minimalism in mind so as not to overpower the page.</p>
 <img src="https://user-images.githubusercontent.com/111531426/198908100-05268636-cd22-46a6-bccd-dbc9fd737da6.png">
+<h2>Typography</h2>
+<ul>
+  <li>Headings and body text - Roboto Condensed</li>
+  <li>Color Scheme - Different shades of green and grey</li>
+ </ul>
+ <h2>Technologies</h2>
+ <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Google Fonts</li>
+  <li>Font Awesome</li>
+  </ul>
+  
+ 
+
      
 
 
