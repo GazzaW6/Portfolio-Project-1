@@ -59,6 +59,17 @@
 <h3> Validator testing</h3>
 <p>The code was run through the HTML validator (https://validator.w3.org/) and multiple errors were found. These have since been corrected</p>
 <img src="https://user-images.githubusercontent.com/111531426/198909561-b344349c-89b8-45c8-a782-ee7f33a65254.png">
+ <h2>Bugs</h2>
+ <ul>
+  <li>Issue-1</li>
+  Images did not load correctly.
+  <li>Solution-1</li>
+  Added underscore between words as spaces are not allowed.
+  <span>
+    <li>Issue-2</li>
+  Pictures were overlapping text on smaller screen-sizes.
+  <li>Solution-2</li>
+  Used media queries to override initial formatting.
 
  
 
