@@ -70,15 +70,19 @@
   Pictures were overlapping text on smaller screen-sizes.
   <li>Solution-2</li>
   Used media queries to override initial formatting.
+    </ul>
+    <h2>Unsolved Bugs</h2>
+  <ul>
   <li>Issue-3</li>
   Navigation menu order changes as screen size changes.
   <li>Solution-3</li>
   Ongoing.
+  </ul>
 <h2>Credits</h2>
     
   <h3>Media</h3>
     <ul>
-    <li>Images were given to me from Luke Ovendale and pexels</li>
+    <li>The images in the gallery  were given to me from Luke Ovendale and pexels</li>
     <li>fonts were taken from Google fonts</li>
     </ul>
   <h3>Content</h3>
