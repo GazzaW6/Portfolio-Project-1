@@ -54,7 +54,10 @@
   <p>The home page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.</p>
     <p>The Gallery page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.The hover effect for each picture also works as it was intended to.</p>
       <p>The Get In Touch page opens as expected. The images all load correctly and where the layout is correct on the various screen sizes. The href links all work as they should.The contact form works as intended. The action value has been set to but I have tested the formdump link "https://formdump.codeinstitute.net" and the form works as intended</p>
-<img src=
+<img src="https://user-images.githubusercontent.com/111531426/198909155-16281164-2a9b-4f69-881e-4e1c28fa9dc6.png">
+<p>The navigation menu works as intended. However the menu does not line up correctly when the site screen size is adjusted. It is beleived that this affects the UI.</p>
+<h3> Validator testing</h3>
+<p>The code was run through the HTML validator and multiple errors were found. These have since been corrected</p>
  
 
      
