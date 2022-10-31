@@ -71,13 +71,16 @@
   <li>Solution-2</li>
   Used media queries to override initial formatting.
 <h2>Credits</h2>
-    <h3>Media</h3>
+    
+  <h3>Media</h3>
     <ul>
     <li>Images were given to me from Luke Ovendale and pexels</li>
     <li>fonts were taken from Google fonts</li>
-    <h3>Content</h3>
+    </ul>
+  <h3>Content</h3>
     <ul>
     <li>Assistance of Code Institute Lessons to improve certain elements within code</li>
+       </ul>
 
   
 
